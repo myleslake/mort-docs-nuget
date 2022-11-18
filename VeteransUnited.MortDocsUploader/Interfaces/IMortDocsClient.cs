@@ -3,7 +3,7 @@ using VeteransUnited.MortDocsUploader.Models;
 
 namespace VeteransUnited.MortDocsUploader.Interfaces
 {
-    internal interface IMortDocsClient
+    public interface IMortDocsClient
     {
         Task<MortDocsResponseModel> UploadDocumentAsync(MortDocsRequestDaoModel request, byte[] document);
         Task<bool> CanConnect();
