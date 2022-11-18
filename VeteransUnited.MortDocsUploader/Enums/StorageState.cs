@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace EquifaxUDM.Models.MortDocs.Enums
+namespace VeteransUnited.MortDocsUploader.Enums
 {
     public enum StorageState
     {
