@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace VeteransUnited.MortDocsUploader.Tests.UnitTests.MortDocsUploader
+namespace VeteransUnited.MortDocsUploader.Tests.UnitTests.MortDocsUploaderTests
 {
     [TestClass]
-    public class UnitTest1
+    public class UploadDocumentAsyncShould
     {
         [TestMethod]
         public void TestMethod1()
